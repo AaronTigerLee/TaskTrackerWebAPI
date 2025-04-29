@@ -11,6 +11,7 @@ namespace TaskTrackerCRUDWebApi
 
     public class ToDo
     {
+        // Generates an ID # sequentially
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
