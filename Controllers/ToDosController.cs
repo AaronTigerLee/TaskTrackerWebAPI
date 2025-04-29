@@ -77,6 +77,7 @@ namespace TaskTrackerCRUDWebApi.Controllers
         [HttpPost]
         public async Task<ActionResult<ToDo>> PostToDo(ToDo toDo)
         {
+            toDo.Id = 0;
             _context.ToDos.Add(toDo);
             await _context.SaveChangesAsync();
 
