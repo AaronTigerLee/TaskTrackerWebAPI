@@ -11,7 +11,8 @@ namespace TaskTrackerCRUDWebApi
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<ToDo>().HasData(
-                new ToDo { Id = 1, Name = "Hire Aaron Lee", Description = "Hire Aaron Lee for the job.", DueDate = DateTime.Today, Priority = Priority.Medium}
+                new ToDo { Id = 1, Name = "Hire Aaron Lee", Description = "Hire Aaron Lee for the job.", 
+                    DueDate = DateTime.Today, Priority = Priority.Medium, IsCompleted = 0}
                 );
         }
 
