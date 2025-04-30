@@ -15,17 +15,5 @@ namespace TaskTrackerCRUDWebApi
                     DueDate = DateTime.Today, Priority = Priority.Medium, IsCompleted = 0}
                 );
         }
-
-        //public string Name { get; set; }
-        //public string Description { get; set; }
-        //public DateTime DueDate { get; set; }
-        //public Priority Priority { get; set; }
-        //public int IsCompleted { get; set; }
-
-        //public DateTime Completion { get; set; }
-        //public DateTime Creation { get; set; }
-
-
-
     }
 }

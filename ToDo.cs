@@ -24,6 +24,7 @@ namespace TaskTrackerCRUDWebApi
 
         public DateTime? Completion { get; set; }
         public DateTime? Creation { get; set; }
+
         // add foreign key referencing user IDs once auth is implemented. 
 
     }
